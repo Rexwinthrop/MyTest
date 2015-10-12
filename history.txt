@@ -1,0 +1,38 @@
+    1  sudo apt-get install git
+    2  git config
+    3  git config --global rexwinthrop "Rex Winthrop"
+    4  git config --list
+    5  git --help
+    6  git status
+    7  get config --global --edit
+    8  git config --global --edit
+    9  git config --global user.name "Your Name"
+   10  git config --global user.email "youremail@domain.com"
+   11  git config --list
+   12  onfig --global --edit
+   13  nano ~/.gitconfig
+   14  git config --list
+   15  mkdir -p ~/git/testing ; cd ~/git/testing
+   16  touch file
+   17  git init
+   18  ls -altrh
+   19  git add
+   20  git add .
+   21  git commit -m "Initial Commit" -a
+   22  git remote add origin ssh://git@git.domain.tld/repository.git 
+   23  git remote -v
+   24  git push origin master
+   25  git init Mytest
+   26  cd Mytest/
+   27  ls -altrh
+   28  vi ReadMe
+   29  vi sample.c
+   30  git add README
+   31  git add ReadMe
+   32  git add smaple.c
+   33  git add sample.c
+   34  git commit -m "init_message"
+   35  git remote add origin https://github.com/Rexwinthrop/Mytest.git
+   36  git push origin master
+   37  ls -altrh
+   38  history > history.txt
